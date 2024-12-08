@@ -1,0 +1,68 @@
+/* Tổng quan */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fde8e8; /* Màu nền pastel */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Ảnh đại diện */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #f8d7da;
+}
+
+/* Tiêu đề */
+h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+/* Nút liên kết */
+.links {
+    margin-top: 20px;
+}
+
+.button {
+    display: block;
+    background-color: #f8d7da;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #f8d7da;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    border: 2px solid #333;
+    color: #000;
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #aaa;
+}
